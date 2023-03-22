@@ -21,8 +21,8 @@ public class Main {
 		try {
 			
 			//EV3
-	    	Wheel wheel1 = WheeledChassis.modelWheel(Motor.A, 43.2).offset(-72);
-	    	Wheel wheel2 = WheeledChassis.modelWheel(Motor.D, 43.2).offset(72);
+	    	Wheel wheel1 = WheeledChassis.modelWheel(Motor.A, 56).offset(-72);
+	    	Wheel wheel2 = WheeledChassis.modelWheel(Motor.D, 56).offset(72);
 	    	Chassis chassis = new WheeledChassis(new Wheel[]{wheel1, wheel2},WheeledChassis.TYPE_DIFFERENTIAL); 
 	    	MovePilot pilot = new MovePilot(chassis);
 	    	pilot.setLinearSpeed(80);
